@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="myBatisPlus.AppTest" time="0.009" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\IDEA\WorkPlace\dao\myBatisPlus\target\test-classes;D:\IDEA\WorkPlace\dao\myBatisPlus\target\classes;D:\Maven\Repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\JDK\JDK\JDK11\bin"/>
+    <property name="sun.java.command" value="C:\Users\SuperMonster\AppData\Local\Temp\surefire4805687899665022539\surefirebooter-20240519143716079_3.jar C:\Users\SuperMonster\AppData\Local\Temp\surefire4805687899665022539 2024-05-19T14-37-15_942-jvmRun1 surefire-20240519143716079_1tmp surefire_0-20240519143716079_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\IDEA\WorkPlace\dao\myBatisPlus\target\test-classes;D:\IDEA\WorkPlace\dao\myBatisPlus\target\classes;D:\Maven\Repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SuperMonster"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="D:\JDK\JDK\JDK11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\IDEA\WorkPlace\dao\myBatisPlus"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SuperMonster\AppData\Local\Temp\surefire4805687899665022539\surefirebooter-20240519143716079_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="user.name" value="SuperMonster"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="D:\Maven\Repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SuperMonster\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.1"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="D:\IDEA\WorkPlace\dao\myBatisPlus"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\JDK\JDK\JDK11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\JDK\JDK\JDK11\bin;D:\JDK\JDK\JDK11\jre\bin;D:\Maven\Maven\maven-3.9.4\bin;D:\Gradle\Gradle\gradle-8.7.0\bin;D:\SDK\SDK\tools;D:\SDK\SDK\tools\bin;D:\SDK\SDK\emulator;D:\SDK\SDK\platform-tools;D:\NVM\Node\node_global\node_modules;D:\NVM\NVM\nvm;D:\NVM\Nodejs;D:\Git\Git\Git\cmd;C:\Users\SuperMonster\AppData\Local\Microsoft\WindowsApps;D:\CLion\CLion\CLion 2024.1.1\bin;;D:\IDEA\IDEA\IntelliJ IDEA 2024.1.1\bin;;D:\NVM\NVM\nvm;D:\NVM\Nodejs;D:\VSCode\VSCode\Microsoft VS Code\bin;D:\NVM\Node\node_global;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\Maven\Repository"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testApp" classname="myBatisPlus.AppTest" time="0.001"/>
+</testsuite>

@@ -7,8 +7,14 @@
     <modules>
         <module>c3p0</module>
         <module>myBatis</module>
+        <module>myBatisPlus</module>
     </modules>
     <version>1.0</version>
     <name>dao</name>
     <url>https://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
 </project>

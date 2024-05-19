@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="c3p0" />
         <module name="myBatis" />
+        <module name="myBatisPlus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
