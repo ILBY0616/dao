@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="c3p0" />
-        <module name="myBatis" />
+        <module name="myBatisB" />
+        <module name="myBatisA" />
         <module name="myBatisPlus" />
+        <module name="c3p0" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
