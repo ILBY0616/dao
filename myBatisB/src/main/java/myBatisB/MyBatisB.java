@@ -23,14 +23,14 @@ public class MyBatisB {
         WareMapper wareMapper = sqlSession.getMapper(WareMapper.class);
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("商品信息管理系统");
-            System.out.println("选择操作");
+            System.out.println("# 商品系统 #");
+            System.out.println("# 选择操作 #");
             System.out.println("1 增加商品");
-            System.out.println("2 删除商品按名称");
-            System.out.println("3 修改商品");
+            System.out.println("2 删除商品按编号");
+            System.out.println("3 修改商品按编号");
             System.out.println("4 查询商品按类别");
             System.out.println("5 查询商品按所有");
-            System.out.println("6 退出");
+            System.out.println("6 退出系统");
             int choice = scanner.nextInt();
             scanner.nextLine();
             switch (choice) {
@@ -43,7 +43,7 @@ public class MyBatisB {
                     sqlSession.commit();
                     break;
                 case 3:
-                    updateWare(scanner, wareMapper);
+                    updateWareById(scanner, wareMapper);
                     sqlSession.commit();
                     break;
                 case 4:
@@ -92,7 +92,7 @@ public class MyBatisB {
         }
     }
 
-    private static void updateWare(Scanner scanner, WareMapper wareMapper) {
+    private static void updateWareById(Scanner scanner, WareMapper wareMapper) {
         System.out.println("请输入修改商品信息:");
         Ware ware = inputInfo(scanner);
         int row = wareMapper.updateWareById(ware);
