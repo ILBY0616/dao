@@ -6,7 +6,7 @@
 <configuration>
     <!--扫描-->
     <typeAliases>
-        <typeAlias alias="User" type="myBatisA.pojo.User"/>
+        <package name="myBatisC.pojo"/>
     </typeAliases>
     <!--连接-->
     <environments default="development">
@@ -25,6 +25,6 @@
     </environments>
     <!--映射-->
     <mappers>
-        <mapper resource="myBatisA/mapper/UserMapper.xml"/>
+        <package name="myBatisC.mapper"/>
     </mappers>
 </configuration>

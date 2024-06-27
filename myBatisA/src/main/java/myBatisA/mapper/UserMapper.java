@@ -7,15 +7,13 @@ import java.util.List;
 
 @Mapper
 public interface UserMapper {
-    Boolean addUser(User user);
+    int addUser(User user);
 
-    Boolean deleteUserById(int uid);
+    int deleteUserById(int uid);
 
-    Boolean deleteAllUser();
+    int deleteAllUser();
 
-    Boolean updateUser(User user);
-
-    User findUserById(int uid);
+    int updateUser(User user);
 
     List<User> findAllUser();
 }

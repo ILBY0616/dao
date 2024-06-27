@@ -4,28 +4,27 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <!--配置-->
 <configuration>
-    <!--属性-->
-    <properties resource="jdbc.properties"/>
     <!--扫描-->
     <typeAliases>
-        <package name="myBatisA.pojo"/>
+        <typeAlias alias="User" type="myBatisA.pojo.User"/>
     </typeAliases>
     <!--连接-->
     <environments default="development">
         <environment id="development">
             <!--事务处理方式-->
             <transactionManager type="JDBC"/>
-            <!--数据池核心信息-->
+            <!--连接核心信息-->
             <dataSource type="POOLED">
-                <property name="driver" value="${jdbc.driver}"/>
-                <property name="url" value="${jdbc.url}"/>
-                <property name="username" value="${jdbc.username}"/>
-                <property name="password" value="${jdbc.password}"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url"
+                          value="jdbc:mysql://localhost:3306/dao?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
     <!--映射-->
     <mappers>
-        <package name="myBatisA.mapper"/>
+        <mapper resource="myBatisA/mapper/UserMapper.xml"/>
     </mappers>
 </configuration>

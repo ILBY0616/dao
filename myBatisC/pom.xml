@@ -6,10 +6,10 @@
         <artifactId>dao</artifactId>
         <version>1.0</version>
     </parent>
-    <groupId>c3p0</groupId>
-    <artifactId>c3p0</artifactId>
+    <groupId>myBatisC</groupId>
+    <artifactId>myBatisC</artifactId>
     <packaging>jar</packaging>
-    <name>c3p0</name>
+    <name>myBatisC</name>
     <url>https://maven.apache.org</url>
 
     <properties>
@@ -17,11 +17,11 @@
     </properties>
 
     <dependencies>
-        <!--C3P0-->
+        <!--MyBatis-->
         <dependency>
-            <groupId>c3p0</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.1.2</version>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.9</version>
         </dependency>
         <!--MySQL-->
         <dependency>
@@ -34,12 +34,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
-        </dependency>
-        <!--DBUtil-->
-        <dependency>
-            <groupId>commons-dbutils</groupId>
-            <artifactId>commons-dbutils</artifactId>
-            <version>1.8.0</version>
         </dependency>
     </dependencies>
 

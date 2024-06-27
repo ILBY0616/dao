@@ -27,16 +27,29 @@ public class C3P0 {
         if (five) {
             System.out.println("删除成功");
         }
+
+        for (int i = 1; i <= 4; i++) {
+            User user = userDao.findUser(i);
+            System.out.println(user.toString());
+        }
+
         Boolean six = userDao.updateUser(new User(4, "赵六", "123456", "消费者", "正常"));
         if (six) {
             System.out.println("更新成功");
         }
+
         for (User user : userDao.findAllUser()) {
             System.out.println(user);
         }
+
         Boolean four = userDao.deleteUser(4);
         if (four) {
             System.out.println("删除成功");
+        }
+
+        for (int i = 1; i <= 3; i++) {
+            User user = userDao.findUser(i);
+            System.out.println(user.toString());
         }
     }
 

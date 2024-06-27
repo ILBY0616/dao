@@ -13,7 +13,7 @@
         <environment id="development">
             <!--事务处理方式-->
             <transactionManager type="JDBC"/>
-            <!--数据池核心信息-->
+            <!--连接核心信息-->
             <dataSource type="POOLED">
                 <property name="driver"
                           value="com.mysql.cj.jdbc.Driver"/>
