@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="myBatisB" />
         <module name="myBatisA" />
-        <module name="myBatisPlus" />
         <module name="c3p0" />
+        <module name="myBatisD" />
         <module name="myBatisC" />
       </profile>
     </annotationProcessing>

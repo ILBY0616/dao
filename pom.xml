@@ -7,9 +7,9 @@
     <modules>
         <module>c3p0</module>
         <module>myBatisA</module>
-        <module>myBatisPlus</module>
         <module>myBatisB</module>
         <module>myBatisC</module>
+        <module>myBatisD</module>
     </modules>
     <version>1.0</version>
     <name>dao</name>

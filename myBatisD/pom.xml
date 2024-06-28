@@ -6,10 +6,10 @@
         <artifactId>dao</artifactId>
         <version>1.0</version>
     </parent>
-    <groupId>myBatisPlus</groupId>
-    <artifactId>myBatisPlus</artifactId>
+    <groupId>myBatisD</groupId>
+    <artifactId>myBatisD</artifactId>
     <packaging>jar</packaging>
-    <name>myBatisPlus</name>
+    <name>myBatisD</name>
     <url>https://maven.apache.org</url>
 
     <properties>
@@ -17,17 +17,23 @@
     </properties>
 
     <dependencies>
-        <!--MySQL-->
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <version>8.2.0</version>
-        </dependency>
         <!--MyBatis-->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.5.9</version>
+        </dependency>
+        <!--MyBatisGenerator-->
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+            <version>1.3.7</version>
+        </dependency>
+        <!--MySQL-->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.2.0</version>
         </dependency>
         <!--Lombok-->
         <dependency>
