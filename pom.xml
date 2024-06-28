@@ -9,7 +9,6 @@
         <module>myBatisA</module>
         <module>myBatisB</module>
         <module>myBatisC</module>
-        <module>myBatisD</module>
     </modules>
     <version>1.0</version>
     <name>dao</name>
